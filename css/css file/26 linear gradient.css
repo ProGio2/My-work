@@ -1,0 +1,9 @@
+div{
+    height: 200px;
+    /* background-image: linear-gradient(to top right , red , yellow , blue ); */
+    /* background-image: linear-gradient(8-deg , red 0px 70px , yellow 60% 100% ); */
+    background-image: linear-gradient(to bottom , green , transparent); 
+    text-align: center;
+    border-radius: 9px;
+    border: 5px solid black;
+}

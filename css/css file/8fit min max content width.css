@@ -1,0 +1,20 @@
+
+/* the width some content */
+h1{
+    background-color: brown;
+    width: fit-content;
+}
+
+/* the width some big word in the content */
+h2{
+    background-color: rgb(42, 165, 48);
+    width: min-content;
+}
+
+/* the width on some line and adding scrolling*/
+h3 {
+    background-color: rgb(102, 13, 218);
+    width: max-content;
+}
+
+

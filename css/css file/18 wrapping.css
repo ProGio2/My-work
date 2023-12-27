@@ -1,0 +1,46 @@
+/* 
+    if 1 word no rapping. div1
+*/
+
+/* .div1{
+    width: 100px;
+    background: yellow;
+} */
+
+/* 
+    if phra rapping. div2
+*/
+/* 
+.div2{
+    width: 100px;
+    background: rgb(255, 115, 0);
+} */
+
+
+
+/* 
+في حالة كانت كلمة واحدة
+*/
+
+.div1{
+    width: 100px;
+    background: rgb(200, 255, 0);
+    /* word-wrap: normal; default value*/
+
+    word-wrap: break-word;
+}
+
+
+
+/* 
+في حالة كانت كلمة جملة
+*/
+
+.div2{
+    width: 100px;
+    background: red;
+    /* white-space: normal; default value*/
+
+    white-space: nowrap;
+}
+

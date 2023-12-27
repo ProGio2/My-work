@@ -1,0 +1,8 @@
+/* 
+    text-shadow: (+-) hirezental-s (+-) vertical-s blur color;
+*/
+
+
+p{
+    text-shadow: 18px 9px 2px red , 26px 22px 2px rgb(68, 0, 255); 
+}

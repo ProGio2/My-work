@@ -1,0 +1,27 @@
+
+
+
+
+/* body {
+    height: 570px;
+} */
+
+
+/* هنا يتغير الطول */
+div {
+    background-color: rebeccapurple;
+    height: 300px;
+}
+
+
+/*  هنا لن يتغير الطول لان طول الاب تاعه بادي نفس طول ديف
+
+div {
+    background-color: rebeccapurple;
+    height: 50%;
+} */
+
+
+/* 
+بالنسبة للنسلبة المؤوية فيوجد مشكل في الطول برك 
+*/

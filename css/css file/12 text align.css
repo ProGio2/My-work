@@ -1,0 +1,7 @@
+/* anly block */
+
+div{
+    background:hotpink;
+    width: 300px;
+    text-align: center; /* left center right of width div */
+}

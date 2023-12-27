@@ -1,0 +1,28 @@
+/* I Want coloring strong tag p only */
+/* Idea Discendant */
+div p strong{
+    color:red;
+}
+
+p strong{
+    color:red;
+}
+
+/* 
+ idea direct child selector 
+هنا معناها من سلالته مش شرط ابنو لهذا نعمل فراغ و اي فقرة داخل الديف تتلون احمر 
+    div p{
+        color:red;
+    }
+
+هنا شرط الابن المياشر للديف 
+    div > p{
+        color:red;
+    }
+
+
+    div > strong{
+        color:red;
+    }
+     لن يتلون لانه ليس ابنه المباشر
+*/

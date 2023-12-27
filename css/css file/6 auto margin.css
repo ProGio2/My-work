@@ -1,0 +1,21 @@
+/* center the elements by auto margin */
+div {
+    height: 200px;
+    width: 200px;
+    background-color: blueviolet;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 auto;
+    /* 
+    or:
+    margin: auto;
+    or: (perfect option)
+    margin: 0 auto;
+    */
+    /* 
+    المارجين توسطن العنصر من برا وليس من الداخل 
+    و توسطن افقيا وليس عموديا 
+    */
+    
+
+}

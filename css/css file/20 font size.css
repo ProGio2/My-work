@@ -1,0 +1,12 @@
+/* 
+    text normal and paragraph :
+        16px = 1em = 100% ;
+    h1 :
+        32px = 2em = 200% ;
+
+*/
+
+
+#text1{
+    font-size: 20px;
+}

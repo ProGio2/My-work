@@ -1,0 +1,29 @@
+.d1{
+    width: 300px;
+    background: yellow;
+    white-space: normal;
+}
+
+
+.d2{
+    width: 300px;
+    background: yellow;
+    white-space: pre;
+}
+
+
+/* pre and wrap */
+.d3{ 
+    width: 300px;
+    background: yellow;
+    white-space: pre-wrap;
+}
+
+
+
+/* wrap and pre except line */
+.d4{
+    width: 300px;
+    background: yellow;
+    white-space: pre-line;
+}

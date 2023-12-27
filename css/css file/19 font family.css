@@ -1,0 +1,16 @@
+/* 
+    fonts:
+        1. web safe fonts.  fallback fonts.
+        2. google fonts.
+
+*/
+
+
+  /* @import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap'); */
+  
+
+
+p{
+    text-transform:capitalize;
+    font-family: 'Silkscreen';
+}

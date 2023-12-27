@@ -1,0 +1,46 @@
+.width {
+    background-color: red;
+    width: 300px;
+}
+
+.max-width {
+    background-color:blue;
+    max-width: 300px /* 0 => 300px*/
+}
+
+.min-width {
+    background-color:rgb(51, 255, 0);
+    min-width: 300px; /* 300px => ...*/
+}
+
+
+
+
+
+
+
+
+
+.height {
+    background-color: yellow;
+    height: 100px;
+}
+
+.min-height {
+    background-color: rgb(2, 146, 156);
+    min-height: 100px; /* 100px => ...*/
+}
+.min-height2{
+    background-color: rgb(154, 174, 175);
+    min-height: 100px; /* 100px => ...*/
+}
+
+.max-height {
+    background-color: rgb(204, 0, 255);
+    max-height: 100px; /* 0px => 100px */
+}
+.max-height2 {
+    background-color: rgb(188, 119, 202);
+    max-height: 100px; /* 0px => 100px */
+}
+

@@ -1,0 +1,81 @@
+div{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+}
+/* div:hover{
+    background-color: black;
+
+
+}
+
+div:active{
+    background-color: aqua;
+} */
+
+/* div:empty{
+    background-color: green;
+} */
+
+
+
+/*? pseudo-classes for link */
+
+/* 
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(255, 127, 7);
+}
+a:visited{
+    color: blueviolet;
+    font-size: 44px;
+    font-family: cursive;
+}
+a:link{
+    color: red;
+}
+a:active{
+    font-size: 44xp;
+    background-color: darkgoldenrod;
+} */
+
+
+
+/*? pseudo-classes for link */
+
+input:focus{
+    background-color: chocolate;
+    outline: none;
+}
+/* *معناه ادا كان المدخل  ديسبلد طبق ما يلي */
+input:disabled{
+    background-color: blue;
+}
+/* *معناه ادا كان المدخل غير ديسبلد طبق ما يلي */
+input:enabled{
+    background-color: rgb(238, 238, 238);
+}
+/* *معناه ادا كان المدخل مطلوب طبق ما يلي */
+
+input:required{
+    background-color: deeppink;
+}
+
+/* *معناه ادا كان المدخل خاطئ طبق ما يلي */
+input:invalid{
+    background-color: rgb(255, 0, 0);
+}
+/* *معناه ادا كان المدخل صحيح طبق ما يلي */
+input:valid{
+    background-color: rgb(0, 252, 76);
+}
+/* *معناه ادا كان المدخل متعلم عليه طبق ما يلي */
+.check:checked{
+    position: relative;
+    right: 100px;
+}
+

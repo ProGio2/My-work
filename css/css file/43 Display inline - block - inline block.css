@@ -1,0 +1,36 @@
+/* 
+property    |       default width       | new line      | width . height | margin 
+
+____________________________________________________________________________________
+
+block       | 100% of parent width      | true          \ respect        | all direction
+inline      | fit content               | false         \ no respect     | also left and right
+
+*/
+
+/* p , span{
+    background-color: red;
+}
+
+p{
+    width: 200px;
+    height: 60px;
+}
+
+span{
+    width: 200px;
+    height: 60px;
+    padding: 20px;
+} */
+
+
+p{
+    background-color: red;
+    display: inline-block;
+}
+
+span{
+    background-color: blue;
+    display: inline-block;
+    margin: 5px;
+}

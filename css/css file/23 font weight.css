@@ -1,0 +1,61 @@
+p{
+    text-transform:capitalize;
+    font-weight: bold;
+}
+h1{
+    text-transform: capitalize;
+    font-weight: normal;
+}
+
+/* 
+    This 3 Value Ia Relativily for parient:
+        bolder
+        lighter
+        inherit
+*/
+/* 
+    initial :
+        convert text to normal (regular).
+*/
+
+/* 
+    1. The Value weight of 100 to 900.
+    2. found some family is not support all value.
+    3. 400 = regular ou normal.
+*/
+
+.text1{
+    font-weight:100;
+}
+
+.text2{
+    font-weight:200;
+}
+
+.text3{
+    font-weight:300;
+}
+
+.text4{
+    font-weight:400;
+}
+
+.text5{
+    font-weight:500;
+}
+
+.text6{
+    font-weight:600;
+}
+
+.text7{
+    font-weight:700;
+}
+
+.text8{
+    font-weight:800;
+}
+
+.text9{
+    font-weight:900;
+}

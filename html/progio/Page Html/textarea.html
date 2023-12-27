@@ -1,0 +1,56 @@
+<!-- 
+
+1 autofocus
+2 validate
+    1 maxlength=""
+    2 minlength=""
+3 novalidate in form
+4 required
+5 readonly {القيمة يلي فيها ترسل}
+6 disabled {القيمة يلي فيها لا ترسل}
+
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form novalidate>
+        <input  maxlength="10" type="text" readonly>
+        <input  maxlength="10" type="text" disabled>
+        <br>
+        <textarea cols="4" rows="6">hello</textarea>
+    </form>
+
+    <form>
+        <div>
+            <label for="txt">User Name</label>
+            <input id="txt" type="text" value="user name" name="user" disabled>
+        </div>
+        <div>
+            <label for="pass">password</label>
+            <input autofocus id="pass" type="password"  name="pass" required>
+        </div>
+        <input type="submit" value="send">
+        <br><hr>
+
+    </form>
+    <form>
+        <div>
+            <label for="txt">User Name</label>
+            <input id="txt" type="text" value="user name" name="user" readonly>
+        </div>
+        <div>
+            <label for="pass">password</label>
+            <input id="pass" type="password"  name="pass" required>
+        </div>
+        <input type="submit" value="send">
+        <br><hr>
+
+    </form>
+</body>
+</html>

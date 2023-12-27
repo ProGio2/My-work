@@ -1,0 +1,4 @@
+p{
+    text-transform: capitalize;
+    font-style: italic ; /* italic is supported of all browser reverse oblique */
+}

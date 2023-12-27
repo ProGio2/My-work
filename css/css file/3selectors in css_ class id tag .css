@@ -1,0 +1,28 @@
+/* 1: , = and */
+/* S1: select tag using tag */
+h2 , p {
+    color:red;
+}
+
+/* S2: select tag using class */
+p.yes{
+    color:blue;
+}
+h1.yes{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* S3: select tag using id */
+p#yes{
+    color:blue;
+}
+h1#yes{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* S3: select tag using *. */
+/* 
+*{
+    color:red;
+}
+*/

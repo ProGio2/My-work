@@ -1,0 +1,7 @@
+.text1{
+    text-transform:capitalize;
+    font-variant:small-caps; /* variant: transform later small to leter uppercase small*/
+}
+.text2{
+    text-transform:uppercase;
+}

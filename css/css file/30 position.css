@@ -1,0 +1,69 @@
+/* 
+   & 1 مصير المكان الاصلي
+   & 2 حركة العنصر ستكون نسبة لمين
+*/
+.container{
+    background-color: rgb(255, 0, 157);
+    padding: 10px;
+    height: 600px;
+    width: 600px;
+}
+
+.container2{
+    background-color: rgb(1, 78, 24);
+    padding: 10px;
+    height: 400px;
+    width: 400px;
+    position: relative;
+}
+
+.parent{
+    background-color: aqua;
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+
+}
+
+.parent > div {
+    height: 50px;
+}
+
+.one{
+    background-color: red;
+}
+
+
+.tow{
+    background-color: yellow;
+
+    position: absolute;
+/* width: fit-content */
+    left: 0px;
+    bottom: 0px;
+
+}
+
+
+
+
+.three{
+    background-color: darkviolet;
+}
+
+
+/* .tow{
+    background-color: yellow;
+
+    position: relative;
+
+    left: 20px;
+    top: 15px;
+
+    ^ the 4 properties is working with position 
+    top: ;
+    left: ;
+    right: ;
+    bottom: ;
+
+} */

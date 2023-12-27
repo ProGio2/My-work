@@ -1,0 +1,20 @@
+
+
+table{
+    width:100%;
+    border-spacing: 1px;
+}
+
+
+th{
+    background-color: rgb(184, 110, 15);
+    height: 30px;
+}
+td{
+    background-color: rgba(184, 111, 15, 0.575);
+    height: 20px;
+    text-align: center;
+    vertical-align: top;
+    border: rgba(184, 111, 15, 0.658) 3px solid;
+
+}

@@ -1,0 +1,53 @@
+/* 
+    *pseudo classes => :
+    *pseudo elements => ::
+*/
+
+/* 
+P::first-line{
+    color: rgb(255, 95, 3);
+    font-weight: 700;
+}
+
+P::first-letter{
+    color: rgb(0, 0, 0);
+}
+
+p::selection{
+    color:rgb(46, 228, 0);
+    background-color:rgba(120, 233, 8, 0.445)
+}
+ */
+
+ /* ----------------------------------------------------------------------------------------------------------------- */
+
+/* p::before{
+    content: 'h ' ' $ '; ^ شرط
+    color: red;
+
+} */
+
+/* & اظهار مربع قبل النص لدبنا خطوتين */
+/* * 1- height and width */
+/* * 2- position */
+
+p{
+    width: 100px;
+    height: 30px;
+    background-color: rgba(255, 0, 0, 0.473);
+    position: relative;
+    bottom: 0;
+}
+p::before{
+    content: '';
+    background-color: red;
+/* * 1- height and width */
+    height: 100%;
+    width: 5px;
+/* * 2- position */
+    position: absolute;
+    right: 0;
+    border-radius: 0px 2.5px 2.5px 0x;
+
+
+}

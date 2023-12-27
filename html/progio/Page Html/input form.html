@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <fieldset >
+        <h2 align="center">hello world</h2>
+    </fieldset>
+    <form novalidate>
+        <fieldset>
+            <legend>Login</legend>
+            <div>
+                <label for="txt">User Name</label>
+                <input id="txt" type="text" value="user name" required>
+            </div>
+            <br>
+            <div>
+                <label for="pass">Password</label>
+                <!-- validation التأكد -->
+                <input minlength="8" maxlength="20" id="pass" type="Password" placeholder="password" required>
+            </div>
+            <input type="submit" value="send">
+        </fieldset>
+    </form>
+</body>
+</html>

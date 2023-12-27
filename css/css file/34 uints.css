@@ -1,0 +1,23 @@
+/* 
+unit:
+    1. abselute (px cm mm in ....)
+    2. relative (rem % ....)
+
+*/
+
+html{
+    font-size: 10px; /* root size for html*/
+}
+
+p{
+    font-size: 2rem; /* ren = num * root html
+                        ^ 2*10px  = 20px */
+}
+div{
+    font-size: 20px;
+}
+
+div > h2{
+    font-size: 2em; /* ren = num * root parent
+                     ^ 2*20px  = 40px */
+}

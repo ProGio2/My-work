@@ -1,0 +1,13 @@
+.p1{
+    text-transform:uppercase; /* كبيرة */
+}
+.p2{
+    text-transform:capitalize; /*  اول حرف كبير والبقية لا تؤثر عليه*/
+}
+.p2ex{
+    text-transform:capitalize; /*  اول حرف كبير والبقية لا تؤثر عليه*/
+    
+}
+.p3{
+    text-transform:lowercase; /* صغيرة */
+}

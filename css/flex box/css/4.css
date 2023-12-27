@@ -1,0 +1,53 @@
+/* في خالة
+direction : row;
+*/
+
+/* 
+    if flex direction == row
+        justufy-content => X
+        align-items => Y
+        align-centent => Y
+
+
+    f flex direction == column
+        justufy-content => Y
+        align-items => X
+        align-centent => X
+
+*/
+
+.parent{
+    background-color: gold;
+    height: 400px;
+
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-wrap: nowrap; */
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    align-content: center;
+
+
+    
+}
+
+.parent div{
+    padding: 10px;
+    margin: 10px;
+}
+
+.item1{
+    background-color: green;
+}
+
+.item2{
+    background-color: red;
+}
+
+.item3{
+    background-color: blue;
+}
+
+.item4{
+    background-color: violet;
+}

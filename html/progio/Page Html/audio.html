@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audio</title>
+    <style>
+        /* قم بإخفاء الشعار الافتراضي */
+        audio::-webkit-media-controls-start-playback-button {
+          display: none;
+        }
+        
+        /* قم بتعيين صورة أو رمز بدلاً منه */
+        audio {
+          background: url('../image/Screenshot_2023-10-15-11-52-47-46.jpg') no-repeat;
+          background-size: contain;
+          width: 300px; /* ضبط عرض الزر حسب الحاجة */
+          height: 30px; /* ضبط ارتفاع الزر حسب الحاجة */
+          cursor: pointer; /* تحويل المؤشر إلى يد عند التحريك فوق الزر */
+        }
+      </style>
+</head>
+<body>
+    <h1>chrait youcef</h1>
+    <h2>introduction</h2>
+<!-- <audio src="introduction.mp3"></audio> -->
+<!--  -->
+<audio controls muted autoplay loop >
+    <source src="../audio/introduction - Copy (2).mp3" type="audio/mpeg">
+    <source src="../audio/introduction - Copy.wav" type="audio/wav">
+    <source src="../audio/introduction.ogg" type="audio/ogg">
+    your browser does not support the audio element.
+    <!-- لن تظهر الا في خالة لم يشتغل الصوت -->
+</audio>
+</body>
+</html>

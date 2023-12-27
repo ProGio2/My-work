@@ -1,0 +1,15 @@
+div{
+    height: 600px;
+    /*?  ellips شكل بيضاوي*/
+    background-image: radial-gradient(red, yellow );
+    background-image: radial-gradient(ellips 200px 400px , red, yellow );
+
+    /*?  circle شكل بيضاوي*/
+    background-image: radial-gradient(circle , red, yellow );
+    background-image: radial-gradient(circle 200px , red, yellow );
+
+
+    background-image: radial-gradient(circle 200px at top , red, yellow );
+    background-image: radial-gradient(circle 200px at top left, red, yellow );
+
+}

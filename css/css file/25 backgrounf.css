@@ -1,0 +1,78 @@
+/* video  */
+
+
+.div1{
+    background-color: #ffff00;
+    background-image: url(../image/icon600x600.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* the photo fixed in scroll
+                                     the default value is scroll */
+
+    /* photo background repeat in chrome */
+    /* background-repeat: repeat-x;
+    background-repeat: repeat-y; */
+}
+
+.div2{
+    height: 900px;
+    border: dotted red 5px;
+    background-image: url(../image/doc.ico);
+
+
+    background-repeat: no-repeat;
+
+
+    /* background-position: X Y; */
+    background-position: 300px 30px;
+    background-position: left bottom;
+    background-position: center;
+
+
+    /* background-size: wigth height; */
+    background-size: 700px 800px;
+    background-size: cover; /*  يخرب شكل الصورة ولكن يملء العرض*/
+/* ملاحطة عندما تعمل زوم في متصفح يديرو في الزاوية وباش يديرو في النص نستخدم 
+background-position: center;
+*/
+
+    background-size: contain; /*  لا يخرب شكل الصورة ولكن  لا يملء العرض اي يحافط علئ ابعاد الصورة*/
+
+    background-origin: padding-box; /* start image of starting padding (no padding) */
+    background-origin: border-box; /* border upper image*/
+    background-origin: content-box; /* show padding and border*/
+
+
+}
+
+
+
+/* shorthand background */
+/* 
+color
+image
+repeat
+position/size
+origin 
+*/
+
+.div3{
+    height: 400px;
+    border: dotted red 5px;
+    background: red url(../image/Screenshot_2023-10-15-11-52-47-46.jpg) no-repeat center/cover padding-box;
+ }
+
+
+
+
+
+
+ /* 
+color
+image
+repeat
+position/size
+origin 
+attachment
+
+
+*/

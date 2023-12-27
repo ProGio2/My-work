@@ -1,0 +1,30 @@
+div{
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: 5px dotted;
+
+    /* default value */
+    overflow: visible;
+    
+    /* hidden content outside */
+    overflow: hidden;
+    
+    /* scroll content outside 
+       scrol show if not content
+    */
+    overflow: scroll;
+
+    /* scroll content outside 
+       hidden scroll if not content
+    */
+    overflow: auto;
+    
+
+    /* control on X */
+    overflow-x: hidden;
+    
+    /* control on Y */
+    overflow-y: hidden;
+
+}
